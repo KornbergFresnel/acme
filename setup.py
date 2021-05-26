@@ -67,6 +67,13 @@ launchpad_requirements = [
     'dm-launchpad-nightly',
 ]
 
+marl_envs = [
+    'pettingzoo',
+    'supersuit',
+    'multi-agent-ale-py',
+    'autorom'
+]
+
 long_description = """Acme is a library of reinforcement learning (RL) agents
 and agent building blocks. Acme strives to expose simple, efficient,
 and readable agents, that serve both as reference implementations of popular
@@ -108,6 +115,7 @@ setup(
         'reverb': reverb_requirements,
         'testing': testing_requirements,
         'launchpad': launchpad_requirements,
+        'marl_envs': marl_envs,
     },
     classifiers=[
         'Development Status :: 3 - Alpha',
